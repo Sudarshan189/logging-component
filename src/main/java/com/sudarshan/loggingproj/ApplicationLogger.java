@@ -31,7 +31,7 @@ public class ApplicationLogger {
     We have used info logging while push and pop
 
     Logs will be saved in Home directory of present user with filename
-            sudarshan.log.ddMMYYYY.txt
+            assignment.log.ddMMYYYY.txt
      */
     public static void main(String[] args) {
         ApplicationLogger applicationLogger = new ApplicationLogger();
@@ -39,6 +39,7 @@ public class ApplicationLogger {
         applicationLogger.push(1);
         applicationLogger.poll();
         applicationLogger.poll();
+        System.out.println("Completed");
 
     }
 
